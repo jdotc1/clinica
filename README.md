@@ -1,3 +1,13 @@
+## Organized pipelines for neuroimaging research
+
+This is a development fork of [Clinica](https://github.com/aramis-lab/clinica), a platform for processing data in clinical neuroimaging research studies. Upstream combines standardized dataset organization with pipelines for modalities such as T1 MRI, diffusion MRI, and PET, connecting image processing and feature extraction to downstream analyses.
+
+**Contribution to review:** [PR #1741](https://github.com/aramis-lab/clinica/pull/1741) proposes passing FreeSurfer atlas paths as literal subprocess arguments.
+
+Use the [official installation and pipeline documentation](https://aramislab.paris.inria.fr/clinica/docs/public/latest/) to select a workflow and its external software dependencies. The original project guide follows below. This fork uses the `dev` branch; its [comparison with upstream](https://github.com/aramis-lab/clinica/compare/dev...jdotc1:dev) is available for source review.
+
+---
+
 <!--(http://www.clinica.run/img/clinica_brainweb.png)-->
 <!-- markdownlint-disable MD033 -->
 
